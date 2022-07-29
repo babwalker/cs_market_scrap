@@ -11,7 +11,7 @@ soup = BeautifulSoup(src, 'lxml')
 
 # with open("index.html", encoding="UTF=8") as file:
 #     src = file.read()
-
+print("dadadadada")
 total_amounts = soup.find(id = "total_pages").text
 total_amounts = int(total_amounts)
 with open("data.csv", "w", encoding="utf=8") as file:
